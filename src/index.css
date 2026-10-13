@@ -1,0 +1,76 @@
+/* Global Styling */
+body {
+    background-color: #0b0d14;
+    color: white;
+    margin: 0;
+    font-family: "DM Sans", sans-serif;
+    font-size: 1rem;
+}
+
+main {
+  margin: 2rem;
+  
+
+/*to test scrolling*/
+  min-height: 150vh;
+}
+
+html {
+  overflow-y: scroll;
+  scrollbar-width: thin;
+}
+
+
+/* NAV BAR */
+.navbar {
+  display: flex;
+  background-color: #13151f;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.67rem 1.34rem;
+  color: white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.navbar h1 {
+  font-size: 1.2rem;
+  margin: 0.9rem 0;
+}
+
+.navbar ul { display: flex; 
+  gap: 1.5rem; 
+  list-style: none;
+  font-size: 1rem; 
+}
+
+
+
+/* Button Hover Animation */
+.navbar a {
+  color: white;
+  position: relative;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.navbar a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 0;
+  height: 1.5px;
+  background-color: #4da6ff;
+  transition: width 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #4da6ff;
+}
+
+.navbar a:hover::after {
+  width: 100%;
+}
+
+
+
