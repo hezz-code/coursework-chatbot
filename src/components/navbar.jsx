@@ -8,7 +8,6 @@ function Navbar() {
         <li><Link to="/">Home</Link></li>
         <li><Link to="/information">Information</Link></li>
         <li><Link to="/chat">Chat</Link></li>
-        <li><Link to="/accessibility">Accessibility</Link></li>
       </ul>
     </nav>
   );
