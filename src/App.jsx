@@ -1,9 +1,11 @@
 import { Routes, Route } from "react-router-dom";
-import Navbar from "./Navbar";
+import "./App.css";
+import Navbar from "./components/navbar.jsx";
 import Footer from "./components/footer";
 import Home from "./pages/home";
-import About from "./pages/about";
+import Information from "./pages/information.jsx";
 import Chat from "./pages/chat";
+import Accessibility from "./pages/accessibility.jsx";
 
 function App() {
   return (
@@ -12,8 +14,9 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/information" element={<Information />} />
           <Route path="/chat" element={<Chat />} />
+          <Route path="/accessibility" element={<Accessibility />} />
         </Routes>
       </main>
       <Footer />
