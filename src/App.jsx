@@ -10,7 +10,6 @@ function App() {
     <>
       <Navbar />
       <main>
-        {/* creating the links from the buttons to the pages*/}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
