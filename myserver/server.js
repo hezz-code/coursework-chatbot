@@ -10,23 +10,31 @@ app.use(express.json());
 const responses = [
   {
     keywords: ["hello", "hi", "hey"],
-    reply: "Hello! Ask me anything about Queen Elizabeth II.",
+    reply: "Hello. What would you like to ask me?",
   },
   {
     keywords: ["born", "birth"],
-    reply: "Elizabeth was born on 21 April 1926 in Mayfair, London.",
+    reply: "I was born on 21 April 1926 in Mayfair, London.",
   },
   {
     keywords: ["crowned", "coronation"],
-    reply: "She was crowned on 2 June 1953 at Westminster Abbey.",
+    reply: "I was crowned on 2 June 1953 at Westminster Abbey.",
   },
   {
     keywords: ["died", "death", "passed"],
-    reply: "Queen Elizabeth II died on 8 September 2022 at Balmoral Castle, aged 96.",
+    reply: "Unfortunately, I died on 8 September 2022 at Balmoral Castle, aged 96.",
   },
   {
     keywords: ["reign", "how long"],
-    reply: "She reigned for 70 years, from 1952 to 2022, the longest of any British monarch.",
+    reply: "I reigned for 70 years, from 1952 to 2022, the longest of any British monarch.",
+  },
+    {
+    keywords: ["bye"],
+    reply: "Cheerio",
+  },
+    {
+    keywords: ["funk"],
+    reply: "Oh my, thats rude.",
   },
 ];
 
