@@ -12,9 +12,6 @@ main {
   
 
 /*to test scrolling*/
-  min-height: 150vh;
-}
-
 html {
   overflow-y: scroll;
   scrollbar-width: thin;
