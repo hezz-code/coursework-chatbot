@@ -1,0 +1,48 @@
+/* NAV BAR */
+.navbar {
+  display: flex;
+  background-color: #FFFFFF;
+  align-items: center;
+  padding: 0.67rem 1.34rem;
+  color: #000E5A;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.navbar h1 {
+  font-size: 1.2rem;
+  margin: 0.9rem 0;
+}
+
+.navbar ul { 
+  display: flex; 
+  gap: 1.5rem; 
+  list-style: none;
+  font-size: 1rem; 
+}
+
+/* Button Hover Animation */
+.navbar a {
+  color: #000E5A;
+  position: relative;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.navbar a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 0;
+  height: 1.5px;
+  background-color: #001DC4;
+  transition: width 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #001DC4;
+}
+
+.navbar a:hover::after {
+  width: 100%;
+}
