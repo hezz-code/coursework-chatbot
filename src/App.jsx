@@ -1,6 +1,8 @@
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/navbar.jsx";
+import Navbar from "./Navbar";
+import Footer from "./components/footer";
 import Home from "./pages/home";
 import Information from "./pages/information.jsx";
 import Chat from "./pages/chat";
@@ -19,6 +21,7 @@ function App() {
           <Route path="/accessibility" element={<Accessibility />} />
         </Routes>
       </main>
+      <Footer />
     </>
   );
 }
