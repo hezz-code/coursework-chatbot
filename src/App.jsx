@@ -1,5 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./Navbar";
+import Footer from "./components/footer";
 import Home from "./pages/home";
 import About from "./pages/about";
 import Chat from "./pages/chat";
@@ -16,6 +17,7 @@ function App() {
           <Route path="/chat" element={<Chat />} />
         </Routes>
       </main>
+      <Footer />
     </>
   );
 }
