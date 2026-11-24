@@ -6,6 +6,7 @@
   padding: 0.67rem 1.34rem;
   color: #000E5A;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 2px 8px rgba(0, 14, 90, 0.15);
 }
 
 .navbar h1 {
