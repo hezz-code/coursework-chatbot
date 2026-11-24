@@ -15,7 +15,6 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/information" element={<Information />} />
           <Route path="/chat" element={<Chat />} />
-          <Route path="/accessibility" element={<Accessibility />} />
         </Routes>
       </main>
       <Footer />
