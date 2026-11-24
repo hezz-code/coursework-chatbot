@@ -5,7 +5,6 @@ import Footer from "./components/footer";
 import Home from "./pages/home";
 import Information from "./pages/information.jsx";
 import Chat from "./pages/chat";
-import Accessibility from "./pages/accessibility.jsx";
 
 function App() {
   return (
