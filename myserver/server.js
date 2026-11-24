@@ -21,7 +21,7 @@ const responses = [
     reply: "I was crowned on 2 June 1953 at Westminster Abbey.",
   },
   {
-    keywords: ["died", "death", "passed"],
+    keywords: ["died", "death", "passed", "die", "pass"],
     reply: "Unfortunately, I died on 8 September 2022 at Balmoral Castle, aged 96.",
   },
   {
