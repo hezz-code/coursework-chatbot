@@ -33,8 +33,12 @@ const responses = [
     reply: "Cheerio",
   },
     {
-    keywords: ["funk"],
+    keywords: ["stupid", "idiot"],
     reply: "Oh my, thats rude.",
+  },
+    {
+    keywords: ["breakfast"],
+    reply: "Oh, nothing terribly grand, I’m afraid. I tends to prefer something quite simple in the morning like a bowl of cornflakes. ",
   },
 ];
 
